@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class MainModuleComponent {
 
+  showFiller: boolean = true;
+  title = 'AngularMaterial';
+
+  toggleSidenav() {
+    this.showFiller = !this.showFiller;
+  }
 }
