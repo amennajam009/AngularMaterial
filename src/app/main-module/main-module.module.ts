@@ -9,13 +9,15 @@ import {NgIf} from '@angular/common';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import {MatIconModule} from '@angular/material/icon';
 import {MatToolbarModule} from '@angular/material/toolbar';
-import { HeaderComponent } from './header/header/header.component';
+
+import { SideNavComponent } from './side-nav/side-nav/side-nav.component';
 
 
 @NgModule({
   declarations: [
     MainModuleComponent,
-    HeaderComponent
+
+    SideNavComponent
   ],
   imports: [
     CommonModule,
