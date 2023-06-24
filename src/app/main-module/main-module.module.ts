@@ -11,13 +11,15 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatToolbarModule} from '@angular/material/toolbar';
 
 import { SideNavComponent } from './side-nav/side-nav/side-nav.component';
+import { HomeComponent } from './home/home/home.component';
 
 
 @NgModule({
   declarations: [
     MainModuleComponent,
 
-    SideNavComponent
+    SideNavComponent,
+     HomeComponent
   ],
   imports: [
     CommonModule,

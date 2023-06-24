@@ -4,9 +4,13 @@
       <p *ngIf="showFiller">Lorem, ipsum dolor sit amet consectetur.</p>
       <button (click)="showFiller = !showFiller" mat-raised-button>
         Toggle extra text
+      </button><br>
+      <button  mat-raised-button routerLink="./home">
+        Toggle extra text
       </button>
     </mat-drawer>
   
+
     <div class="example-sidenav-content">
       <button type="button" mat-button (click)="drawer.toggle()" >
         <i class="fa fa-bars" style="font-size:26px"></i>
