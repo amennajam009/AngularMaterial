@@ -7,11 +7,15 @@ import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import {MatButtonModule} from '@angular/material/button';
 import {NgIf} from '@angular/common';
 import {MatSidenavModule} from '@angular/material/sidenav';
+import {MatIconModule} from '@angular/material/icon';
+import {MatToolbarModule} from '@angular/material/toolbar';
+import { HeaderComponent } from './header/header/header.component';
 
 
 @NgModule({
   declarations: [
-    MainModuleComponent
+    MainModuleComponent,
+    HeaderComponent
   ],
   imports: [
     CommonModule,
@@ -19,7 +23,9 @@ import {MatSidenavModule} from '@angular/material/sidenav';
     MatSlideToggleModule,
     MatSidenavModule,
     NgIf,
-    MatButtonModule
+    MatButtonModule,
+    MatIconModule,
+    MatToolbarModule
   ]
 })
 export class MainModuleModule { }
