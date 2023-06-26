@@ -15,12 +15,14 @@ import { MatExpansionModule } from '@angular/material/expansion';
 
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { LisstComponent } from './MainModule/sidelist/ide/lisst/lisst.component';
-import { TestcomComponent } from './MainModule/testcom/testcom/testcom.component';
+import { HomeComponent } from './MainModule/home/home/home.component';
+
 @NgModule({
   declarations: [
     AppComponent,
     LisstComponent,
-    TestcomComponent
+    HomeComponent,
+   
   ],
   imports: [
     BrowserModule,
