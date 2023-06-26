@@ -1,9 +1,10 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { TestcomComponent } from './MainModule/testcom/testcom/testcom.component';
 
 const routes: Routes = [
-  { path: '', loadChildren: () => import('./main-module/main-module.module').then(m => m.MainModuleModule)},
-  { path: 'MainModule', loadChildren: () => import('./main-module/main-module.module').then(m => m.MainModuleModule)},
+{path:'testcom', component:TestcomComponent}
+
 ];
 
 @NgModule({
@@ -11,3 +12,4 @@ const routes: Routes = [
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
+
