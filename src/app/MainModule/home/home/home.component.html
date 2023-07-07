@@ -89,19 +89,19 @@
         <div class="card">
             <div class="content">
                 <div class="imgBx">
-                    <img src="../../../../assets/pic/pexels-vishnu-r-nair-1105666.jpg" class="mt-5 w-100" >
+                    <img src="../../../../assets/pic/pexels-vishnu-r-nair-1105666.jpg" class=" w-100" >
                 </div>
                 <div class="contentBx">
                     <h3>Printed Lawn<br><span> Top Dupatta</span></h3>
                     <button class="play-button" (click)="toggleAudio()">
                         <i class="fa" [ngClass]="isPlaying ? 'fa-pause-circle' : 'fa-play-circle'" style="font-size: 46px; color: green"></i>
                       </button>
-                    <!-- <button (click)="playMusic()">playsongs</button> -->
                 </div>
             </div>
+            <audio #audioPlayer [src]="'assets/pic/Pitbull_-_Rain_Over_Me_Ft_Marc_Anthony_CeeNaija.com_.mp3'" controls></audio>
         </div>
-        <audio #audioPlayer [src]="'assets/pic/Pitbull_-_Rain_Over_Me_Ft_Marc_Anthony_CeeNaija.com_.mp3'" controls></audio>
-        <audio #audioPlayer></audio>
+        <!-- <audio #audioPlayer [src]="'assets/pic/Pitbull_-_Rain_Over_Me_Ft_Marc_Anthony_CeeNaija.com_.mp3'" controls></audio> -->
+
         <div class="card">
             <div class="content">
                 <div class="imgBx">
