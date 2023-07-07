@@ -1,4 +1,5 @@
 import { Component, ElementRef, ViewChild } from '@angular/core';
+import { ThemeService } from 'src/app/MainModule/theme/theme.service';
 
 @Component({
   selector: 'app-lisst',
@@ -6,6 +7,11 @@ import { Component, ElementRef, ViewChild } from '@angular/core';
   styleUrls: ['./lisst.component.css']
 })
 export class LisstComponent {
+
+  constructor() {}
+  ngOnInit() {
+  }
+
   @ViewChild('menuButton') menuButton:any| ElementRef;
   isSidenavClosed = false;
   panelOpenState = false;

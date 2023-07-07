@@ -36,7 +36,8 @@ import { HomeComponent } from './MainModule/home/home/home.component';
     MatListModule,
     MatExpansionModule,
     MatButtonModule,
-    CommonModule  
+    CommonModule , 
+    MatSlideToggleModule
  
   ],
   providers: [],

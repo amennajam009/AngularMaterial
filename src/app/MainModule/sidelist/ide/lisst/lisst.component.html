@@ -1,3 +1,4 @@
+
 <mat-sidenav-container class="sidenav-container" opened>
     <mat-sidenav #sidenav mode="side" class="sidenav" (closedStart)="onSidenavClose()" opened>
       <div class="side-nav-content">
@@ -78,7 +79,6 @@
       <button class="menu-button ms-2 my-1" mat-icon-button (click)="sidenav.toggle()">
         <mat-icon>menu</mat-icon>
       </button>
-      
       <router-outlet></router-outlet>
     </mat-sidenav-content>
   </mat-sidenav-container>
