@@ -93,10 +93,15 @@
                 </div>
                 <div class="contentBx">
                     <h3>Printed Lawn<br><span> Top Dupatta</span></h3>
-                    <i class="fa fa-play-circle" style="font-size:46px; color:green"></i>
+                    <button (click)="toggleAudio()">
+                        <i class="fa" [ngClass]="isPlaying ? 'fa-pause-circle' : 'fa-play-circle'" style="font-size: 46px; color: green"></i>
+                      </button>
+                    <!-- <button (click)="playMusic()">playsongs</button> -->
                 </div>
             </div>
         </div>
+        <audio #audioPlayer [src]="'assets/pic/Pitbull_-_Rain_Over_Me_Ft_Marc_Anthony_CeeNaija.com_.mp3'" controls></audio>
+        <audio #audioPlayer></audio>
         <div class="card">
             <div class="content">
                 <div class="imgBx">
