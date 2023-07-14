@@ -54,7 +54,7 @@
     border-radius: 5px;
   }
   .mdc-list-item.active{
-    background-color: var(--purple-color);
+    color: white;
     border-radius: 5px;
     color: var(--white-color);
   }
@@ -63,7 +63,7 @@
     border-radius: 5px;
   }
   .sideNavIcons{
-    color: var(--black-color);
+    color: white;
     margin-right: 10px;
   }
   .sideNavIcons:hover{
