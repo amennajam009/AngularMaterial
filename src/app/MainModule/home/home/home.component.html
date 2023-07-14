@@ -85,7 +85,7 @@
                 </div>
             </div>
         </div>
-        <div class="card">
+        <!-- <div class="card">
             <div class="content">
                 <div class="imgBx">
                     <img src="../../../../assets/pic/pexels-vishnu-r-nair-1105666.jpg" class=" w-100" >
@@ -98,9 +98,22 @@
                 </div>
             </div>
             <audio #audioPlayer [src]="'assets/pic/Pitbull_-_Rain_Over_Me_Ft_Marc_Anthony_CeeNaija.com_.mp3'" controls></audio>
-        </div>
+        </div> -->
         <!-- <audio #audioPlayer [src]="'assets/pic/Pitbull_-_Rain_Over_Me_Ft_Marc_Anthony_CeeNaija.com_.mp3'" controls></audio> -->
-
+        <div class="card">
+            <div class="content">
+              <div class="imgBx">
+                <img src="../../../../assets/pic/pexels-vishnu-r-nair-1105666.jpg" class="w-100">
+              </div>
+              <div class="contentBx">
+                <h3>Printed Lawn<br><span>Top Dupatta</span></h3>
+                <button class="play-button" (click)="toggleAudio()">
+                  <i class="fa" [ngClass]="isPlaying ? 'fa-pause-circle' : 'fa-play-circle'" style="font-size: 46px; color: green"></i>
+                </button>
+              </div>
+            </div>
+            <audio #audioPlayer [src]="'assets/pic/Pitbull_-_Rain_Over_Me_Ft_Marc_Anthony_CeeNaija.com_.mp3'" [hidden]="!isPlaying" controls></audio>
+          </div>
         <div class="card">
             <div class="content">
                 <div class="imgBx">
