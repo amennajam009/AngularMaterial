@@ -14,13 +14,14 @@
               </div>
               <div class="contentBx">
                 <h3>Printed Lawn<br><span>Top Dupatta</span></h3>
-                <button class="play-button" (click)="toggleAudio()">
-                  <i class="fa" [ngClass]="isPlaying ? 'fa-pause-circle' : 'fa-play-circle'" style="font-size: 46px; color: green"></i>
+                <button class="play-button" (click)="toggleAudio(0)">
+                  <i class="fa" [ngClass]="isPlaying[0] ? 'fa-pause-circle' : 'fa-play-circle'" style="font-size: 46px; color: green"></i>
                 </button>
               </div>
             </div>
-            <audio #audioPlayer [src]="'assets/pic/Pitbull_-_Rain_Over_Me_Ft_Marc_Anthony_CeeNaija.com_.mp3'" [hidden]="!isPlaying" controls></audio>
+            <audio #audioPlayer0 [src]="'assets/pic/Pitbull_-_Rain_Over_Me_Ft_Marc_Anthony_CeeNaija.com_.mp3'" [hidden]="!isPlaying[0]" controls></audio>
           </div>
+
           <div class="card">
             <div class="content">
               <div class="imgBx">
@@ -28,12 +29,12 @@
               </div>
               <div class="contentBx">
                 <h3>Printed Lawn<br><span>Top Dupatta</span></h3>
-                <button class="play-button" (click)="toggleAudio()">
-                  <i class="fa" [ngClass]="isPlaying ? 'fa-pause-circle' : 'fa-play-circle'" style="font-size: 46px; color: green"></i>
+                <button class="play-button" (click)="toggleAudio(1)">
+                  <i class="fa" [ngClass]="isPlaying[1] ? 'fa-pause-circle' : 'fa-play-circle'" style="font-size: 46px; color: green"></i>
                 </button>
               </div>
             </div>
-            <audio #audioPlayer [src]="'assets/pic/Pitbull_-_Rain_Over_Me_Ft_Marc_Anthony_CeeNaija.com_.mp3'" [hidden]="!isPlaying" controls></audio>
+            <audio #audioPlayer1 [src]="'assets/pic/Pitbull_-_Rain_Over_Me_Ft_Marc_Anthony_CeeNaija.com_.mp3'" [hidden]="!isPlaying[1]" controls></audio>
           </div>
           <div class="card">
             <div class="content">
@@ -42,12 +43,12 @@
               </div>
               <div class="contentBx">
                 <h3>Printed Lawn<br><span>Top Dupatta</span></h3>
-                <button class="play-button" (click)="toggleAudio()">
-                  <i class="fa" [ngClass]="isPlaying ? 'fa-pause-circle' : 'fa-play-circle'" style="font-size: 46px; color: green"></i>
+                <button class="play-button" (click)="toggleAudio(2)">
+                  <i class="fa" [ngClass]="isPlaying[2] ? 'fa-pause-circle' : 'fa-play-circle'" style="font-size: 46px; color: green"></i>
                 </button>
               </div>
             </div>
-            <audio #audioPlayer [src]="'assets/pic/Pitbull_-_Rain_Over_Me_Ft_Marc_Anthony_CeeNaija.com_.mp3'" [hidden]="!isPlaying" controls></audio>
+            <audio #audioPlayer2 [src]="'assets/pic/Pitbull_-_Rain_Over_Me_Ft_Marc_Anthony_CeeNaija.com_.mp3'" [hidden]="!isPlaying[2]" controls></audio>
           </div>
           <div class="card">
             <div class="content">
@@ -56,12 +57,13 @@
               </div>
               <div class="contentBx">
                 <h3>Printed Lawn<br><span>Top Dupatta</span></h3>
-                <button class="play-button" (click)="toggleAudio()">
-                  <i class="fa" [ngClass]="isPlaying ? 'fa-pause-circle' : 'fa-play-circle'" style="font-size: 46px; color: green"></i>
+                <button class="play-button" (click)="toggleAudio(3)">
+                  <i class="fa" [ngClass]="isPlaying[3] ? 'fa-pause-circle' : 'fa-play-circle'" style="font-size: 46px; color: green"></i>
                 </button>
               </div>
             </div>
-            <audio #audioPlayer [src]="'assets/pic/Pitbull_-_Rain_Over_Me_Ft_Marc_Anthony_CeeNaija.com_.mp3'" [hidden]="!isPlaying" controls></audio>
+
+            <audio #audioPlayer3 [src]="'assets/pic/Pitbull_-_Rain_Over_Me_Ft_Marc_Anthony_CeeNaija.com_.mp3'" [hidden]="!isPlaying[3]" controls></audio>
           </div>
           <div class="card">
             <div class="content">
@@ -70,12 +72,12 @@
               </div>
               <div class="contentBx">
                 <h3>Printed Lawn<br><span>Top Dupatta</span></h3>
-                <button class="play-button" (click)="toggleAudio()">
-                  <i class="fa" [ngClass]="isPlaying ? 'fa-pause-circle' : 'fa-play-circle'" style="font-size: 46px; color: green"></i>
+                <button class="play-button" (click)="toggleAudio(4)">
+                  <i class="fa" [ngClass]="isPlaying[4] ? 'fa-pause-circle' : 'fa-play-circle'" style="font-size: 46px; color: green"></i>
                 </button>
               </div>
             </div>
-            <audio #audioPlayer [src]="'assets/pic/Pitbull_-_Rain_Over_Me_Ft_Marc_Anthony_CeeNaija.com_.mp3'" [hidden]="!isPlaying" controls></audio>
+            <audio #audioPlayer4 [src]="'assets/pic/Pitbull_-_Rain_Over_Me_Ft_Marc_Anthony_CeeNaija.com_.mp3'" [hidden]="!isPlaying[4]" controls></audio>
           </div>
           <div class="card">
             <div class="content">
@@ -84,12 +86,12 @@
               </div>
               <div class="contentBx">
                 <h3>Printed Lawn<br><span>Top Dupatta</span></h3>
-                <button class="play-button" (click)="toggleAudio()">
+                <button class="play-button" (click)="toggleAudio(5)">
                   <i class="fa" [ngClass]="isPlaying ? 'fa-pause-circle' : 'fa-play-circle'" style="font-size: 46px; color: green"></i>
                 </button>
               </div>
             </div>
-            <audio #audioPlayer [src]="'assets/pic/Pitbull_-_Rain_Over_Me_Ft_Marc_Anthony_CeeNaija.com_.mp3'" [hidden]="!isPlaying" controls></audio>
+            <audio #audioPlayer [src]="'assets/pic/Pitbull_-_Rain_Over_Me_Ft_Marc_Anthony_CeeNaija.com_.mp3'" [hidden]="!isPlaying[5]" controls></audio>
           </div>
           <div class="card">
             <div class="content">
@@ -98,7 +100,7 @@
               </div>
               <div class="contentBx">
                 <h3>Printed Lawn<br><span>Top Dupatta</span></h3>
-                <button class="play-button" (click)="toggleAudio()">
+                <button class="play-button" (click)="toggleAudio(6)">
                   <i class="fa" [ngClass]="isPlaying ? 'fa-pause-circle' : 'fa-play-circle'" style="font-size: 46px; color: green"></i>
                 </button>
               </div>
@@ -112,7 +114,7 @@
               </div>
               <div class="contentBx">
                 <h3>Printed Lawn<br><span>Top Dupatta</span></h3>
-                <button class="play-button" (click)="toggleAudio()">
+                <button class="play-button" (click)="toggleAudio(7)">
                   <i class="fa" [ngClass]="isPlaying ? 'fa-pause-circle' : 'fa-play-circle'" style="font-size: 46px; color: green"></i>
                 </button>
               </div>
@@ -126,7 +128,7 @@
               </div>
               <div class="contentBx">
                 <h3>Printed Lawn<br><span>Top Dupatta</span></h3>
-                <button class="play-button" (click)="toggleAudio()">
+                <button class="play-button" (click)="toggleAudio(8)">
                   <i class="fa" [ngClass]="isPlaying ? 'fa-pause-circle' : 'fa-play-circle'" style="font-size: 46px; color: green"></i>
                 </button>
               </div>
@@ -140,7 +142,7 @@
               </div>
               <div class="contentBx">
                 <h3>Printed Lawn<br><span>Top Dupatta</span></h3>
-                <button class="play-button" (click)="toggleAudio()">
+                <button class="play-button" (click)="toggleAudio(9)">
                   <i class="fa" [ngClass]="isPlaying ? 'fa-pause-circle' : 'fa-play-circle'" style="font-size: 46px; color: green"></i>
                 </button>
               </div>
@@ -154,7 +156,7 @@
               </div>
               <div class="contentBx">
                 <h3>Printed Lawn<br><span>Top Dupatta</span></h3>
-                <button class="play-button" (click)="toggleAudio()">
+                <button class="play-button" (click)="toggleAudio(10)">
                   <i class="fa" [ngClass]="isPlaying ? 'fa-pause-circle' : 'fa-play-circle'" style="font-size: 46px; color: green"></i>
                 </button>
               </div>
@@ -168,7 +170,7 @@
               </div>
               <div class="contentBx">
                 <h3>Printed Lawn<br><span>Top Dupatta</span></h3>
-                <button class="play-button" (click)="toggleAudio()">
+                <button class="play-button" (click)="toggleAudio(11)">
                   <i class="fa" [ngClass]="isPlaying ? 'fa-pause-circle' : 'fa-play-circle'" style="font-size: 46px; color: green"></i>
                 </button>
               </div>
