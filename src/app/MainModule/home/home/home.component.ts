@@ -46,12 +46,28 @@ export class HomeComponent {
   @ViewChild('audioPlayer6')
   audioPlayer6!: ElementRef;
 
+  @ViewChild('audioPlayer7')
+  audioPlayer7!: ElementRef;
+
+  @ViewChild('audioPlayer8')
+  audioPlayer8!: ElementRef;
+  
+  @ViewChild('audioPlayer9')
+  audioPlayer9!: ElementRef;
+
+  @ViewChild('audioPlayer10')
+  audioPlayer10!: ElementRef;
+
+  @ViewChild('audioPlayer11')
+  audioPlayer11!: ElementRef;
   // Add more @ViewChild declarations for other audio players
 
   toggleAudio(index: number): void {
     const audioElements: HTMLAudioElement[] = [this.audioPlayer0.nativeElement,this.audioPlayer1.nativeElement,
        this.audioPlayer2.nativeElement, this.audioPlayer3.nativeElement,this.audioPlayer4.nativeElement,
-       this.audioPlayer5.nativeElement,this.audioPlayer6.nativeElement];
+       this.audioPlayer5.nativeElement,this.audioPlayer6.nativeElement,this.audioPlayer7.nativeElement
+      ,this.audioPlayer8.nativeElement,this.audioPlayer9.nativeElement,this.audioPlayer10.nativeElement,
+      this.audioPlayer11.nativeElement];
     const currentAudioElement: HTMLAudioElement = audioElements[index];
 
     if (currentAudioElement.paused) {
